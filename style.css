@@ -52,48 +52,44 @@
   font-weight: 400;
 }
 
-
 .journey-text {
-    font-size: 54px;
-    line-height: 70px;
-    font-weight: 600;
-  }
+  font-size: 54px;
+  line-height: 70px;
+  font-weight: 600;
+}
 
+.gr-text {
+  color: rgb(24, 175, 24);
+  font-weight: 500;
+  font-size: 20px;
+}
 
-  .gr-text{
-   color: rgb(24, 175, 24);
-   font-weight: 500;
-   font-size: 20px;
-  }
-
-
-  .custom-card {
-    background-color: #0a5e38;
-    color: white;
-    border-radius: 10px;
-    padding: 20px;
+.custom-card {
+  background-color: #0a5e38;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
 }
 .sidebar-item {
-    background-color: #dfeee6;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  background-color: #dfeee6;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 .btn-custom {
-    background-color: #1dd1a1;
-    color: white;
-    border-radius: 20px;
-    padding: 8px 20px;
-    text-decoration: none;
+  background-color: #1dd1a1;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px;
+  text-decoration: none;
 }
 
-
-.Empower-text{
+.Empower-text {
   font-size: 45px;
-    line-height: 65px;
-    font-weight: 600;
+  line-height: 65px;
+  font-weight: 600;
 }
 
 .tick-icon {
@@ -110,22 +106,20 @@
   margin-right: 10px;
 }
 
-.ready-text{
+.ready-text {
   font-size: 60px;
   font-weight: 500;
   line-height: 80px;
   color: #ffffff;
 }
 
-.lorem-text{
+.lorem-text {
   font-size: 24px;
   font-weight: 400;
   color: #ffffff;
 }
 
-
-
-.green-one-btn{
+.green-one-btn {
   background-color: #ffffff;
   color: #229a46;
   border-radius: 50px;
@@ -133,7 +127,6 @@
   text-decoration: none;
   border: none;
 }
-
 
 .pricing-card {
   background: #f8f9fa;
@@ -177,14 +170,11 @@
   font-size: 20px;
 }
 
-
-.button-success{
+.button-success {
   background: #28a745;
   color: white;
   border-radius: 50px;
 }
-
-
 
 .testimonial-card {
   background: #f8f9fa;
@@ -199,7 +189,6 @@
 .testimonial-section {
   margin: auto;
 }
-
 
 .footer {
   background-color: #043d2e;
@@ -220,22 +209,22 @@
   font-size: 18px;
 }
 
-
-.seclast{
+.seclast {
   background-color: #004d3d;
 }
 
-
-.lastMaster-text{
+.lastMaster-text {
   font-size: 62px;
   line-height: 68px;
   font-weight: 600;
   color: white;
 }
 
-
-.lastparatext{
+.lastparatext {
   color: white;
 }
 
-
+.mid-text {
+  font-size: 32px;
+  font-weight: 500;
+}
