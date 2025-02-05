@@ -35,7 +35,7 @@
     </section>
 
 
-    <section class="overflow-hidden px-5 py-3">
+    <section class="sm:overflow-hidden px-5 py-3">
         <div class="container-fluid">
             <div class="row">
                 <div
@@ -73,53 +73,51 @@
     <section class="overflow-hidden">
         <div class="container-fluid">
             <div class="row">
-
-                <div class="col-md-12 d-flex px-5 py-5">
-                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+    
+                <div class="col-md-12 d-flex px-5 py-5 flex-column flex-md-row">
+                    <!-- Left Column (Text and Button) -->
+                    <div class="col-md-6 d-flex align-items-center justify-content-center mb-4 mb-md-0">
                         <div class="col-md-10">
-
-                            <div class="d-flex align-items-center mb-2  px-1">
+                            <div class="d-flex align-items-center mb-2 px-1">
                                 <div class="me-2" style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);">
                                 </div>
                                 <p class="m-0 text-dark"><span class="task-text">THIS IS IMPORTANT TASKS</span></p>
                             </div>
-
+    
                             <p class="master-text">Mastering Proven Strategies That Drive Real Result</p>
-
+    
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas omnis iste excepturi illum
                                 iusto consequatur sint ab doloremque! Consequuntur non unde aliquam labore veritatis,
                                 dolore repudiandae recusandae.</p>
-
+    
                             <div class="col-md-12">
                                 <button class="green-btn px-4 py-2">Explore Now</button>
                             </div>
-
-                            <div class="col-md-12">
-
-                            </div>
+    
                         </div>
-
                     </div>
+    
+                    <!-- Right Column (Image) -->
                     <div class="col-md-6">
                         <img src="images/design-digital-product-3d-box-mockup-software-online-course-cover.jpeg" alt=""
-                            class="image-size">
+                            class="image-size img-fluid">
                     </div>
-
+    
                 </div>
-
+    
             </div>
         </div>
     </section>
-
+    
 
     <section class="overflow-hidden">
         <div class="container-fluid">
             <div class="row">
-
-                <div class="col-md-12 d-flex justify-content-between px-5 py-3">
-                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+    
+                <div class="col-md-12 d-flex flex-column flex-md-row justify-content-between px-5 py-3">
+                    <!-- First Column -->
+                    <div class="col-md-4 d-flex justify-content-center align-items-center mb-4 mb-md-0">
                         <div class="col-md-10 bg-light p-4 rounded shadow-sm">
-
                             <div class="mb-2 d-flex align-items-center">
                                 <div>
                                     <i class="fas fa-star text-warning"></i>
@@ -130,18 +128,15 @@
                                 </div>
                                 <span class="ms-2 fw-bold text-dark">4.5</span>
                             </div>
-
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut reiciendis laborum
                                 assumenda id ipsam tempora.</p>
-
                             <p class="fw-bold">John Doe - New York</p>
-
                         </div>
-
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+    
+                    <!-- Second Column -->
+                    <div class="col-md-4 d-flex justify-content-center align-items-center mb-4 mb-md-0">
                         <div class="col-md-10 bg-light p-4 rounded shadow-sm">
-
                             <div class="mb-2 d-flex align-items-center">
                                 <div>
                                     <i class="fas fa-star text-warning"></i>
@@ -152,18 +147,15 @@
                                 </div>
                                 <span class="ms-2 fw-bold text-dark">4.5</span>
                             </div>
-
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut reiciendis laborum
                                 assumenda id ipsam tempora.</p>
-
                             <p class="fw-bold">John Doe - New York</p>
-
                         </div>
-
                     </div>
+    
+                    <!-- Third Column -->
                     <div class="col-md-4 d-flex justify-content-center align-items-center">
                         <div class="col-md-10 bg-light p-4 rounded shadow-sm">
-
                             <div class="mb-2 d-flex align-items-center">
                                 <div>
                                     <i class="fas fa-star text-warning"></i>
@@ -174,22 +166,17 @@
                                 </div>
                                 <span class="ms-2 fw-bold text-dark">4.5</span>
                             </div>
-
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut reiciendis laborum
                                 assumenda id ipsam tempora.</p>
-
                             <p class="fw-bold">John Doe - New York</p>
-
                         </div>
-
                     </div>
                 </div>
-
-
+    
             </div>
         </div>
     </section>
-
+    
 
 
 
@@ -197,25 +184,26 @@
     <section class="overflow-hidden pt-5 pb-3">
         <div class="container-fluid">
             <div class="row">
-
-
+    
                 <div class="col-md-12 bg-greenSec py-4">
                     <p class="text-center fw-gtext py-2">Featured by</p>
-                    <div class="col-md-12 d-flex justify-content-center">
-                        <div class="col-md-8 d-flex justify-content-between">
-                            <p class="fw-ptext">ebay</p>
-                            <p class="fw-ptext">__zapier</p>
-                            <p class="fw-ptext">Okira</p>
-                            <p class="fw-ptext">Stripe</p>
-                            <p class="fw-ptext">Google</p>
-                            <p class="fw-ptext">DocuSign</p>
+                    <div class="col-md-12 d-flex justify-content-center pb-2">
+                        <!-- For Mobile: Stack the elements and for Desktop: Show them in a row -->
+                        <div class="col-md-8 d-flex flex-column flex-md-row justify-content-between">
+                            <p class="fw-ptext mb-3 mb-md-0">ebay</p>
+                            <p class="fw-ptext mb-3 mb-md-0">__zapier</p>
+                            <p class="fw-ptext mb-3 mb-md-0">Okira</p>
+                            <p class="fw-ptext mb-3 mb-md-0">Stripe</p>
+                            <p class="fw-ptext mb-3 mb-md-0">Google</p>
+                            <p class="fw-ptext mb-3 mb-md-0">DocuSign</p>
                         </div>
                     </div>
                 </div>
-
+    
             </div>
         </div>
     </section>
+    
 
 
 
@@ -224,65 +212,66 @@
     <section class="overflow-hidden pt-5 pb-3">
         <div class="container-fluid">
             <div class="row">
-
-
-                <div class="col-md-12 px-5 d-flex justify-content-between">
+    
+                <div class="col-md-12 px-5 d-flex flex-column flex-md-row justify-content-between">
+                    <!-- Left Column (Image) -->
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <div class="col-md-10">
-
                             <img src="images/banner.jpg" alt="" class="banner-image">
                         </div>
                     </div>
+    
+                    <!-- Right Column (Text & Buttons) -->
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
                         <div class="col-md-10">
-
+    
+                            <!-- Task Section -->
                             <div class="d-flex align-items-center mb-2  px-1">
-                                <div class="me-2" style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);">
-                                </div>
+                                <div class="me-2" style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);"></div>
                                 <p class="m-0 text-dark"><span class="task-text">THIS IS IMPORTANT TASKS</span></p>
                             </div>
-
-                            <p class="journey-text">Journey into Marketing Mastery: Unveilling The Marketing Toolkit</p>
-
+    
+                            <!-- Title Text -->
+                            <p class="journey-text">Journey into Marketing Mastery: Unveiling The Marketing Toolkit</p>
+    
+                            <!-- Description -->
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas omnis iste excepturi illum
                                 iusto consequatur sint ab doloremque! Consequuntur non unde aliquam labore veritatis,
                                 dolore repudiandae recusandae.</p>
-
+    
+                            <!-- Explore Button -->
                             <div class="col-md-12">
                                 <button class="green-btn px-4 py-2">Explore Now</button>
                             </div>
-
-                            <div class="col-md-12 pt-3 d-flex justify-content-between">
+    
+                            <!-- Info Section -->
+                            <div class="col-md-12 pt-3 d-flex flex-column flex-md-row justify-content-between">
                                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                                     <div class="col-md-11">
                                         <p class="fw-bold">Lorem ipsum</p>
                                         <p>Lorem ipsum dolor sit amet consecte adipisicing elit. Velit molestiae
                                             voluptatibus enim tempore impedit.</p>
-
                                         <p class="gr-text text-decoration-underline">LOREM IPSUM</p>
-
                                     </div>
                                 </div>
+    
                                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                                     <div class="col-md-11">
                                         <p class="fw-bold">Lorem ipsum</p>
                                         <p>Lorem ipsum dolor sit amet consecte adipisicing elit. Velit enim tempore
                                             impedit.</p>
-
                                         <p class="gr-text text-decoration-underline">LOREM IPSUM</p>
-
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
-
+    
             </div>
         </div>
     </section>
+    
 
 
 
@@ -291,22 +280,24 @@
     <section class="overflow-hidden pt-5 pb-5">
         <div class="container-fluid">
             <div class="row">
-
-
-                <div class="col-md-12 px-5 d-flex justify-content-between">
+    
+                <div class="col-md-12 px-5 d-flex flex-column flex-md-row justify-content-between">
+                    <!-- Left Column (Text) -->
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
                         <div class="col-md-10">
-
+                            <!-- Task Section -->
                             <div class="d-flex align-items-center mb-2  px-1">
-                                <div class="me-2" style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);">
-                                </div>
+                                <div class="me-2" style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);"></div>
                                 <p class="m-0 text-dark"><span class="task-text">THIS IS IMPORTANT TASKS</span></p>
                             </div>
-
-                            <p class="Empower-text">Empower Your Skills: Unveilling the Proficiencies You'll Master</p>
-
+    
+                            <!-- Title Text -->
+                            <p class="Empower-text">Empower Your Skills: Unveiling the Proficiencies You'll Master</p>
+    
+                            <!-- Description -->
                             <p>Lorem ipsum dolor sit amet..</p>
-
+    
+                            <!-- List of Tasks -->
                             <div class="col-md-12">
                                 <p><span class="tick-icon">&#10004;</span>Lorem ipsum, dolor sit amet consectetur </p>
                                 <p><span class="tick-icon">&#10004;</span>Lorem ipsum, dolor sit amet consectetur</p>
@@ -314,38 +305,42 @@
                                 <p><span class="tick-icon">&#10004;</span>Lorem ipsum, dolor sit amet consectetur</p>
                                 <p><span class="tick-icon">&#10004;</span>Lorem ipsum, dolor sit amet consectetur</p>
                             </div>
-
+    
                         </div>
-
+    
                     </div>
+    
+                    <!-- Right Column (Image) -->
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <div class="col-md-10">
-
                             <img src="images/banner4.gif" alt="" class="banner-image">
                         </div>
                     </div>
+    
                 </div>
-
+    
             </div>
         </div>
     </section>
+    
 
 
 
 
 
-
-    <section class="overflow-hidden pt-5 ">
+    <section class="overflow-hidden pt-5">
         <div class="container-fluid">
             <div class="row">
-
-
+    
                 <div class="col-md-12 bg-greenSec py-4 d-flex justify-content-center px-5">
-                    <div class="col-md-11 d-flex justify-content-between">
-
+                    <div class="col-md-11 d-flex flex-column flex-md-row justify-content-between">
+    
+                        <!-- Left Column (Text) -->
                         <div class="col-md-6">
-                            <p class="ready-text">Ready to Superchange Your Marketing skills ?</p>
+                            <p class="ready-text">Ready to Supercharge Your Marketing skills?</p>
                         </div>
+    
+                        <!-- Right Column (Text + Button) -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center">
                             <div class="col-md-11">
                                 <p class="lorem-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
@@ -355,35 +350,36 @@
                                 </div>
                             </div>
                         </div>
+    
                     </div>
-
                 </div>
-
+    
             </div>
         </div>
     </section>
+    
 
 
 
 
-    <section class="overflow-hidden  py-5">
+    <section class="overflow-hidden py-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center">
-
-                    <div class="col-md-11 d-flex justify-content-between px-5">
-                        <div class="col-md-6 d-flex justify-content-center align-items-center">
-
+    
+                    <!-- Pricing Cards Container -->
+                    <div class="col-md-11 d-flex flex-column flex-md-row justify-content-between px-5">
+    
+                        <!-- Monthly Subscription Card -->
+                        <div class="col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
                             <div class="col-md-10">
                                 <h2 class="fw-bold py-3">Choose the pricing that works best for you</h2>
-
                                 <div class="col-md-10">
                                     <div class="pricing-card">
                                         <h4 class="fw-bold">Monthly Subscription</h4>
                                         <p>Fuel your product workflows with more advanced research features</p>
                                         <h2 class="fw-bold">$49 <span class="fs-6">/ Month</span></h2>
                                         <div class="py-3">
-
                                             <button class="btn button-success px-4">Enroll Now →</button>
                                         </div>
                                         <ul class="feature-list mt-3">
@@ -395,17 +391,15 @@
                                 </div>
                             </div>
                         </div>
-
-
+    
+                        <!-- One-Time Payment Card -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center">
-
                             <div class="col-md-10 position-relative">
                                 <div class="pricing-card">
                                     <h4 class="fw-bold">One-Time Payment</h4>
                                     <p>Boost product research and learning across your company</p>
                                     <h2 class="fw-bold">$299 <span class="text-success">(Save 30%)</span></h2>
                                     <div class="py-3">
-
                                         <button class="btn button-success px-4">Enroll Now →</button>
                                     </div>
                                     <ul class="feature-list mt-3">
@@ -413,111 +407,85 @@
                                         <li>Access to members-only community</li>
                                     </ul>
                                 </div>
-                                <div class="best-deal-badge d-flex justify-content-center ">
+                                <div class="best-deal-badge d-flex justify-content-center">
                                     <p>★</p>
                                 </div>
                             </div>
                         </div>
-
+    
                     </div>
-
+    
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
     <section class="overflow-hidden">
         <div class="container-fluid">
             <div class="row px-5 py-5">
-
-                <div class=" pb-5">
-
-
+    
+                <div class="pb-5">
+    
                     <div class="col-md-12">
-
-
+    
                         <div class="col-md-12 d-flex justify-content-center align-items-center">
                             <div class="col-md-11">
                                 <div class="testimonial-section">
-                                    <div class="d-flex align-items-center mb-2  px-1">
-                                        <div class="me-2"
-                                            style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);">
-                                        </div>
-                                        <p class="m-0 text-dark"><span class="task-text">THIS IS IMPORTANT TASKS</span>
-                                        </p>
+                                    <div class="d-flex align-items-center mb-2 px-1">
+                                        <div class="me-2" style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);"></div>
+                                        <p class="m-0 text-dark"><span class="task-text">THIS IS IMPORTANT TASKS</span></p>
                                     </div>
-                                    <div class="col-md-12 d-flex justify-content-between px-2">
+                                    <div class="col-md-12 sm:d-flex justify-content-between px-2">
                                         <div class="col-md-6">
                                             <h2 class="fw-bold">What they say about us</h2>
                                         </div>
                                         <div class="col-md-6 d-flex justify-content-between">
-
-
-                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                elit. Repudiandae autem quisquam placeat. Quidem maxime odio officiis
-                                                cumque dolores aut nesciunt ipsam, pariatur harum repellat ut amet cum
-                                                earum iusto excepturi!</p>
-
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae autem quisquam placeat. Quidem maxime odio officiis cumque dolores aut nesciunt ipsam, pariatur harum repellat ut amet cum earum iusto excepturi!
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+    
                         <div class="col-md-12 d-flex justify-content-center align-items-center">
-
-                            <div class="col-md-11 g-4 mt-4 d-flex flex-wrap">
-
-                                <div class="col-md-4 d-flex justify-content-center align-items-center">
-
+                            <div class="col-md-11 g-4 mt-4 d-flex flex-wrap justify-content-center">
+    
+                                <!-- Testimonial Cards (Responsive) -->
+                                <div class="col-md-4 d-flex justify-content-center align-items-center mb-4">
                                     <div class="col-md-11">
                                         <div class="testimonial-card">
                                             <div class="rating">★★★★★ <strong>5.0</strong></div>
-                                            <p>This course ct expect this much great information I didn't expect this
-                                                much great information.hanged my whole concept regarding design.</p>
+                                            <p>This course exceeded my expectations and changed my entire perspective on design.</p>
                                             <strong>John Doe, London</strong>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-4 pb-1 d-flex justify-content-center align-items-center">
-
+    
+                                <div class="col-md-4 d-flex justify-content-center align-items-center mb-4">
                                     <div class="col-md-11">
                                         <div class="testimonial-card">
                                             <div class="rating">★★★★★ <strong>5.0</strong></div>
-                                            <p>This course is amazing 🔥 t expect this much great information I didn't
-                                                expect this much great information.t expect this much great information
-                                                I didn't expect this much great information. expect this much great
-                                                information I didn't expect this much great information.</p>
+                                            <p>This course is amazing 🔥. The insights and tips are priceless!</p>
                                             <strong>Frederic Simon, New York</strong>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 d-flex justify-content-center align-items-center">
-
+    
+                                <div class="col-md-4 d-flex justify-content-center align-items-center mb-4">
                                     <div class="col-md-11">
                                         <div class="testimonial-card">
                                             <div class="rating">★★★★★ <strong>5.0</strong></div>
-                                            <p>So many insightfult expect this much great information t expect this much
-                                                great informationand informational topics to align your work.</p>
+                                            <p>So many insightful topics that helped me align my work better.</p>
                                             <strong>Lucas Smith, Bangkok</strong>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 d-flex justify-content-center align-items-center">
-
+    
+                                <div class="col-md-4 d-flex justify-content-center align-items-center mb-4">
                                     <div class="col-md-11">
                                         <div class="testimonial-card">
                                             <div class="rating">★★★★★ <strong>5.0</strong></div>
@@ -526,20 +494,18 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-4 d-flex justify-content-center align-items-center">
-
+    
+                                <div class="col-md-4 d-flex justify-content-center align-items-center mb-4">
                                     <div class="col-md-11">
                                         <div class="testimonial-card">
                                             <div class="rating">★★★★★ <strong>5.0</strong></div>
-                                            <p>Highly recommended! t expect this much great information The tips about
-                                                workflow are just amazing.</p>
+                                            <p>Highly recommended! The tips about workflow are just amazing.</p>
                                             <strong>Lucas Smith, Bangkok</strong>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-4 d-flex justify-content-center align-items-center">
+    
+                                <div class="col-md-4 d-flex justify-content-center align-items-center mb-4">
                                     <div class="col-md-11">
                                         <div class="testimonial-card">
                                             <div class="rating">★★★★★ <strong>5.0</strong></div>
@@ -547,16 +513,17 @@
                                             <strong>Frederic Simon, New York</strong>
                                         </div>
                                     </div>
-
                                 </div>
+    
                             </div>
                         </div>
                     </div>
                 </div>
+    
             </div>
         </div>
     </section>
-
+    
 
 
 
@@ -568,45 +535,41 @@
     <section class="overflow-hidden pb-5 seclast">
         <div class="container-fluid">
             <div class="row">
-
-                <div class="col-md-12 d-flex px-5 py-3">
+    
+                <div class="col-md-12 d-flex px-5 sm:py-3 py-5">
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
                         <div class="col-md-10">
-
-                            <div class="d-flex align-items-center mb-2  px-1">
-                                <div class="me-2" style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);">
-                                </div>
+    
+                            <div class="d-flex align-items-center mb-2 px-1">
+                                <div class="me-2" style="width: 4px; height: 20px; background-color: rgb(0, 219, 0);"></div>
                                 <p class="m-0 text-dark"><span class="task-text">THIS IS IMPORTANT TASKS</span></p>
                             </div>
-
+    
                             <p class="lastMaster-text">Mastering Proven Strategies That Drive Real Result</p>
-
+    
                             <p class="lastparatext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas omnis
                                 iste excepturi illum
                                 iusto consequatur sint ab doloremque! Consequuntur non unde aliquam labore veritatis,
                                 dolore repudiandae recusandae.</p>
-
-                            <div class="col-md-12">
+    
+                            <div class="col-md-12 py-4">
                                 <button class="green-btn px-4 py-2">Explore Now</button>
                             </div>
-
-                            <div class="col-md-12">
-
-                            </div>
+    
                         </div>
-
                     </div>
+    
+                    <!-- Image Column -->
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <img src="images/BD-DigitalMarketing-Trust.gif" alt="" class="image-size">
                     </div>
-
+    
                 </div>
-
+    
             </div>
         </div>
     </section>
-
-
+    
 
 
 
@@ -619,76 +582,61 @@
     <section class="overflow-hidden footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 d-flex justify-content-center px-5 py-3">
-
-                    <div class="col-md-11 d-flex justify-content-between">
-                        <div class="col-md-4 d-flex justify-content-center align-items-center">
-
-                            <div class="col-md-11">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis erat a felis
-                                    fermentum.</p>
-                                <p>Follow us on:</p>
-                                <div class="social-icons">
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                </div>
+                <div class="col-12 d-flex flex-column align-items-center px-5 py-3">
+    
+                    <div class="col-12 d-flex flex-column flex-md-row justify-content-between">
+                        <!-- First Section (Social and Description) -->
+                        <div class="col-md-4 d-flex flex-column mb-3 mb-md-0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis erat a felis fermentum.</p>
+                            <p>Follow us on:</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
-
-                        <div class="col-md-8 d-flex justify-content-center">
-
-                            <div class="col-md-12 d-flex justify-content-between">
-
-                                <div class="col-md-4 d-flex justify-content-center ">
-                                    <div class="col-md-8">
-                                        <h5>Links</h5>
-                                        <ul class="list-unstyled">
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Why Us</a></li>
-                                            <li><a href="#">Deals</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 d-flex justify-content-center ">
-
-
-                                    <div class="col-md-8">
-                                        <h5>Services</h5>
-                                        <ul class="list-unstyled">
-                                            <li><a href="#">Our Models</a></li>
-                                            <li><a href="#">Plans</a></li>
-                                            <li><a href="#">Testimonials</a></li>
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Help</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 d-flex justify-content-center ">
-                                    <div class="col-md-8">
-                                        <h5>Contact</h5>
-                                        <p>
-                                        <div class="col-md-11">
-                                            <h5>Links</h5>
-                                            <ul class="list-unstyled">
-                                                <li><a href="#">Home</a></li>
-                                                <li><a href="#">Why Us</a></li>
-                                                <li><a href="#">Deals</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+    
+                        <!-- Second Section (Links) -->
+                        <div class="col-md-8 d-flex flex-column flex-md-row justify-content-center">
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <h5>Links</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Why Us</a></li>
+                                    <li><a href="#">Deals</a></li>
+                                </ul>
+                            </div>
+    
+                            <!-- Third Section (Services) -->
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <h5>Services</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Our Models</a></li>
+                                    <li><a href="#">Plans</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Help</a></li>
+                                </ul>
+                            </div>
+    
+                            <!-- Fourth Section (Contact) -->
+                            <div class="col-md-4">
+                                <h5>Contact</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Email</a></li>
+                                    <li><a href="#">Phone</a></li>
+                                    <li><a href="#">Address</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-
-
+    
                 </div>
             </div>
+        </div>
     </section>
-
+    
 
 
 
