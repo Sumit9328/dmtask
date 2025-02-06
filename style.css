@@ -1,0 +1,321 @@
+.bg-green {
+  background-color: #096123;
+  color: white;
+}
+
+.bg-greenSec {
+  background-color: #229a46;
+}
+
+.custom-hover:hover {
+  background-color: green !important;
+  color: white !important;
+}
+
+.master-text {
+  font-size: 63px;
+  line-height: 85px;
+  font-weight: 600;
+}
+
+.image-size {
+  width: 90%;
+  height: 90%;
+}
+
+.task-text {
+  color: rgb(24, 175, 24);
+}
+
+.green-btn {
+  background-color: rgb(24, 175, 24);
+  border: none;
+  color: white;
+  border-radius: 100px;
+}
+
+.fw-gtext {
+  font-size: 20px;
+  color: white;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+}
+
+.fw-ptext {
+  font-size: 40px;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.journey-text {
+  font-size: 54px;
+  line-height: 70px;
+  font-weight: 600;
+}
+
+.gr-text {
+  color: rgb(24, 175, 24);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.custom-card {
+  background-color: #0a5e38;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.sidebar-item {
+  background-color: #dfeee6;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.btn-custom {
+  background-color: #1dd1a1;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.Empower-text {
+  font-size: 45px;
+  line-height: 65px;
+  font-weight: 600;
+}
+
+.tick-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #2def5a; /* Default green, change as needed */
+  color: #ffffff; /* White color for tick inside the circle */
+  text-align: center;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.ready-text {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.lorem-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.green-one-btn {
+  background-color: #ffffff;
+  color: #229a46;
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+}
+
+.pricing-card {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.green-badge {
+  background: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+.feature-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.feature-list li::before {
+  content: "✔";
+  color: #28a745;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.best-deal-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #28a745;
+  color: white;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.button-success {
+  background: #28a745;
+  color: white;
+  border-radius: 50px;
+}
+
+.testimonial-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.rating {
+  color: #ffc107;
+  font-size: 18px;
+}
+.testimonial-section {
+  margin: auto;
+}
+
+.footer {
+  background-color: #043d2e;
+  color: white;
+  padding: 30px 0;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.seclast {
+  background-color: #004d3d;
+}
+
+.lastMaster-text {
+  font-size: 62px;
+  line-height: 68px;
+  font-weight: 600;
+  color: white;
+}
+
+.lastparatext {
+  color: white;
+}
+
+.mid-text {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+
+
+.slider-container {
+  margin: auto;
+  display: flex;
+  gap: 25px;
+}
+
+.slider-item {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  transition: width 0.3s ease-in-out;
+  flex-direction: column; /* Stack content vertically */
+  padding: 20px;
+}
+
+.slide1 {
+  background-color: #004d3d;
+  border-radius: 12px;
+  width: 120px; /* Default width for slide1 */
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  align-items: flex-start; /* Align content to the left */
+  justify-content: flex-start; /* Align content to the top */
+  padding: 10px;
+}
+
+.slide2 {
+  background-color: #004d3d;
+  border-radius: 12px;
+  width: 120px; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.slide3 {
+background-color: #004d3d;
+  border-radius: 12px;
+  width: 120px; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+/* Styling the vertical text */
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg); /* Makes text vertical from right to left */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+
+
+.image {
+  width: 100%;  /* Ensures image takes full width of the container */
+  height: 420px; /* Ensures image takes full height of the container */
+  object-fit: cover;  /* Ensures image maintains aspect ratio and covers the container */
+  border-radius: 15px;  /* Optional: adds rounded corners */
+}
+
+
+/* Active state for expanded slides */
+.active {
+  width: 900px;
+}
+
+/* Inactive state for collapsed slides */
+.inactive {
+  width: 120px;
+}
+
+/* Specific styles for inactive state to ensure they are properly aligned */
+.inactive .vertical-text {
+  display: block;
+}
