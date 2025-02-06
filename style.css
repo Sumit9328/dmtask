@@ -296,6 +296,25 @@ background-color: #004d3d;
 }
 
 
+.navbar-brand img {
+  height: 50px;
+}
+.custom-hover:hover {
+  opacity: 0.8;
+}
+
+
+.Hamburger{
+  width: 40px;
+  height: 20px;
+}
+
+
+
+/* .navbar-toggler-icon {
+  filter: invert(1); /* Icon ka color black karne ke liye */
+/* } */ 
+
 
 .image {
   width: 100%;  /* Ensures image takes full width of the container */
